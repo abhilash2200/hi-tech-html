@@ -107,46 +107,127 @@
         </section>
 
         <!-- Directors Section -->
-        <div class="director bg-white py-5">
-            <div class="heading-div mb-5">
-                <h4 class="heading">Leadership</h4>
+        <div class="director about-director bg-white py-5">
+            <div class="heading-div d-none d-md-block">
+                <h4 class="heading">Leaders</h4>
             </div>
-            <div class="img-section">
-                <div class="img-div">
-                    <div class="img-css">
-                        <img src="./assets/img/others/d-1.jpg" alt="Subrata Roy">
-                    </div>
-                    <div class="text-div svelte-1g8ul19 p-3">
-                        <div class="number svelte-1g8ul19">
-                            <p class="svelte-1g8ul19 text-dark fw-bold">Mr. Subrata Roy <br /><span
-                                    style="font-size: 1.280vh; color: #C55A1E;">Managing Director</span></p>
+            <div class="flex-grow-1 w-100">
+                <div class="container h-100">
+                    <div class="director-carousel" role="region" aria-roledescription="carousel"
+                        aria-label="Leadership messages">
+                        <div class="director-carousel-track">
+                            <!-- Slide 1 -->
+                            <div class="row align-items-center h-100 director-carousel-slide is-active"
+                                data-slide-index="0" aria-hidden="false">
+                                <div class="col-lg-5 mb-4 mb-lg-0 director-carousel-image-col">
+                                    <div class="img-section">
+                                        <div class="img-div hover-glow">
+                                            <div class="img-css">
+                                                <img src="./assets/img/others/d-1.jpg" alt="Subrata Roy"
+                                                    class="img-fluid">
+                                            </div>
+                                            <div class="text-div svelte-1g8ul19 p-3">
+                                                <div class="number svelte-1g8ul19">
+                                                    <p class="svelte-1g8ul19 text-dark fw-bold mb-1">
+                                                        Mr. Subrata Roy<br />
+                                                        <span style="font-size: 1.280vh; color: #C55A1E;">Managing
+                                                            Director</span>
+                                                    </p>
+                                                    <p class="small text-muted mb-0">
+                                                        Leading Hi-Tech Animation with a vision for industry-ready
+                                                        creativity.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-7 director-carousel-text-col" id="director-message">
+                                    <div class="ps-lg-4">
+                                        <h5 class="text-uppercase text-muted mb-3"
+                                            style="letter-spacing: 0.2em;">Director's Message</h5>
+                                        <p class="mb-3">
+                                            At Hi-Tech Animation, we believe that education must evolve with the
+                                            industry. Our goal is to nurture artists who think fearlessly, execute with
+                                            discipline, and are ready from day one to join world-class studios and
+                                            production houses.
+                                        </p>
+                                        <p class="mb-0">
+                                            Every classroom, lab and mentorship session is designed to mirror real
+                                            production workflows. Under my leadership, our team is committed to giving
+                                            students not just software skills, but a creative mindset and professional
+                                            ethics that stand the test of time.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Slide 2 -->
+                            <div class="row align-items-center h-100 director-carousel-slide" data-slide-index="1"
+                                aria-hidden="true">
+                                <div class="col-lg-5 mb-4 mb-lg-0 director-carousel-image-col">
+                                    <div class="img-section">
+                                        <div class="img-div hover-glow">
+                                            <div class="img-css">
+                                                <img src="./assets/img/others/d-1.jpg" alt="Leadership Team"
+                                                    class="img-fluid">
+                                            </div>
+                                            <div class="text-div svelte-1g8ul19 p-3">
+                                                <div class="number svelte-1g8ul19">
+                                                    <p class="svelte-1g8ul19 text-dark fw-bold mb-1">
+                                                        Academic Leadership<br />
+                                                        <span style="font-size: 1.280vh; color: #C55A1E;">Academic
+                                                            Director</span>
+                                                    </p>
+                                                    <p class="small text-muted mb-0">
+                                                        Guiding curriculum and training to keep every program aligned
+                                                        with studio pipelines.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-7 director-carousel-text-col">
+                                    <div class="ps-lg-4">
+                                        <h5 class="text-uppercase text-muted mb-3"
+                                            style="letter-spacing: 0.2em;">Academic Vision</h5>
+                                        <p class="mb-3">
+                                            Our academic leadership team continuously collaborates with working
+                                            professionals so that each module, assignment and review reflects current
+                                            industry expectations.
+                                        </p>
+                                        <p class="mb-0">
+                                            From foundational drawing to advanced compositing and VFX, we emphasize
+                                            production-ready skills, teamwork and problem-solving that prepare students
+                                            for real deadlines and real clients.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </div>
-                <div class="img-div">
-                    <div class="img-css">
-                        <img src="./assets/img/others/d-1.jpg" alt="Amit Roy">
-                    </div>
-                    <div class="text-div svelte-1g8ul19 p-3">
-                        <div class="number svelte-1g8ul19">
-                            <p class="svelte-1g8ul19 text-dark fw-bold">Mr. Amit Roy <br /><span
-                                    style="font-size: 1.280vh; color: #C55A1E;">Executive Director</span></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="img-div">
-                    <div class="img-css">
-                        <img src="./assets/img/others/d-1.jpg" alt="S. Mukherjee">
-                    </div>
-                    <div class="text-div svelte-1g8ul19 p-3">
-                        <div class="number svelte-1g8ul19">
-                            <p class="svelte-1g8ul19 text-dark fw-bold">Dr. S. Mukherjee <br /><span
-                                    style="font-size: 1.280vh; color: #C55A1E;">Creative Visionary</span></p>
+
+                        <!-- Carousel controls below text -->
+                        <div class="director-carousel-controls mt-4" aria-label="Carousel controls">
+                            <div class="director-carousel-buttons">
+                                <button type="button" class="director-carousel-prev" aria-label="Previous director">
+                                    <i class="fas fa-arrow-left"></i>
+                                </button>
+                                <button type="button" class="director-carousel-next" aria-label="Next director">
+                                    <i class="fas fa-arrow-right"></i>
+                                </button>
+                            </div>
+                            <div class="director-carousel-indicators" role="tablist"
+                                aria-label="Choose director slide">
+                                <button type="button" class="director-carousel-indicator active" role="tab"
+                                    aria-selected="true" aria-label="Show director 1" data-slide-to="0"></button>
+                                <button type="button" class="director-carousel-indicator" role="tab"
+                                    aria-selected="false" aria-label="Show director 2" data-slide-to="1"></button>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
         </div>
     </main>
 
@@ -292,6 +373,80 @@
                         start: 'top 75%',
                         once: true
                     });
+                }
+
+                const directorCarousel = directorSection.querySelector('.director-carousel');
+                if (directorCarousel) {
+                    const slides = Array.from(directorCarousel.querySelectorAll('.director-carousel-slide'));
+                    const prevBtn = directorCarousel.querySelector('.director-carousel-prev');
+                    const nextBtn = directorCarousel.querySelector('.director-carousel-next');
+                    const indicators = Array.from(directorCarousel.querySelectorAll('.director-carousel-indicator'));
+                    let currentIndex = 0;
+
+                    // Helper to trigger CSS animations on image/text when a slide becomes active.
+                    function animateSlideElements(slide) {
+                        const imageCol = slide.querySelector('.director-carousel-image-col');
+                        const textCol = slide.querySelector('.director-carousel-text-col');
+
+                        if (imageCol) {
+                            // Remove and re-add the class so the keyframe animation restarts on every slide change.
+                            imageCol.classList.remove('director-slide-animate-image');
+                            void imageCol.offsetWidth;
+                            imageCol.classList.add('director-slide-animate-image');
+                        }
+
+                        if (textCol) {
+                            textCol.classList.remove('director-slide-animate-text');
+                            void textCol.offsetWidth;
+                            textCol.classList.add('director-slide-animate-text');
+                        }
+                    }
+
+                    function setActiveSlide(newIndex) {
+                        if (!slides.length) return;
+
+                        if (newIndex < 0) {
+                            newIndex = slides.length - 1;
+                        } else if (newIndex >= slides.length) {
+                            newIndex = 0;
+                        }
+
+                        slides.forEach((slide, index) => {
+                            const isActive = index === newIndex;
+                            slide.classList.toggle('is-active', isActive);
+                            slide.setAttribute('aria-hidden', isActive ? 'false' : 'true');
+                        });
+
+                        indicators.forEach((indicator, index) => {
+                            const isActive = index === newIndex;
+                            indicator.classList.toggle('active', isActive);
+                            indicator.setAttribute('aria-selected', isActive ? 'true' : 'false');
+                        });
+
+                        currentIndex = newIndex;
+                        animateSlideElements(slides[newIndex]);
+                    }
+
+                    if (prevBtn) {
+                        prevBtn.addEventListener('click', function () {
+                            setActiveSlide(currentIndex - 1);
+                        });
+                    }
+
+                    if (nextBtn) {
+                        nextBtn.addEventListener('click', function () {
+                            setActiveSlide(currentIndex + 1);
+                        });
+                    }
+
+                    indicators.forEach((indicator, index) => {
+                        indicator.addEventListener('click', function () {
+                            setActiveSlide(index);
+                        });
+                    });
+
+                    // Initialize with first slide active and animated.
+                    setActiveSlide(0);
                 }
             }
 

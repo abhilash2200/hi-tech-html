@@ -103,13 +103,153 @@
 }
 
 /* Director Section Customization for About Page */
-.director .heading-div {
-    background: #000;
+.about-director {
+    align-items: stretch;
 }
 
-.director .heading {
+.about-director .heading-div {
+    background: #000;
+    position: relative;
+    display: block;
+}
+
+.about-director .heading {
     color: #fff;
     -webkit-text-stroke: 1px #fff;
+    margin-top: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-90deg) !important;
+    white-space: nowrap;
+}
+
+/* Director carousel on About page */
+.director-carousel {
+    position: relative;
+    width: 100%;
+}
+
+.director-carousel-track {
+    position: relative;
+    width: 100%;
+}
+
+.director-carousel-slide {
+    display: none;
+}
+
+.director-carousel-slide.is-active {
+    display: flex;
+}
+
+.director-carousel-image-col,
+.director-carousel-text-col {
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+/* Image enters from left with fade-in */
+.director-slide-animate-image {
+    animation: directorImageIn 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Text enters from right with fade-in */
+.director-slide-animate-text {
+    animation: directorTextIn 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@keyframes directorImageIn {
+    from {
+        opacity: 0;
+        transform: translateX(-40px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes directorTextIn {
+    from {
+        opacity: 0;
+        transform: translateX(40px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.director-carousel-controls {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5rem;
+}
+
+.director-carousel-buttons {
+    display: flex;
+    gap: 0.75rem;
+}
+
+.director-carousel-prev,
+.director-carousel-next {
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    background-color: #ffffff;
+    color: #000;
+    border-radius: 999px;
+    padding: 0.4rem 0.9rem;
+    font-size: 0.9rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease, transform 0.2s ease;
+}
+
+.director-carousel-prev:hover,
+.director-carousel-next:hover {
+    background-color: #000;
+    color: #fff;
+    box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.15);
+    transform: translateY(-1px);
+}
+
+.director-carousel-indicators {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.director-carousel-indicator {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    background-color: transparent;
+    padding: 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease, border-color 0.3s ease;
+}
+
+.director-carousel-indicator.active {
+    background-color: #C55A1E;
+    border-color: #C55A1E;
+    transform: scale(1.1);
+}
+
+@media (max-width: 991.98px) {
+    .director-carousel-slide.is-active {
+        display: block;
+    }
+
+    .director-carousel-controls {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.75rem;
+    }
 }
 
 /* Mobile Adjustments */
