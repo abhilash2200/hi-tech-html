@@ -1,6 +1,6 @@
 <div class="header">
         <div class="d-flex justify-content-between align-items-center">
-            <a href="index.html" aria-label="logo">
+            <a href="index.php" aria-label="logo">
                 <img src="./assets/img/logo/logo.png" alt="logo" width="100%" height="80px">
             </a>
 
@@ -21,7 +21,7 @@
                             <div class="col-lg-6 p-3">
                                 <div class="p-3 d-flex justify-content-between align-items-center">
                                     <h5 class="text-light mb-0">READ OUR BLOG</h5>
-                                    <a href="/blog.html">
+                                    <a href="blog.php">
                                         <button class="btn-class-name">
                                             <span>Explore More</span>
                                         </button>
@@ -94,40 +94,40 @@
                     </div>
                     <div class="col-lg-4">
                         <div class="Text svelte-mtggno">
-                            <a href="animation.html">
+                            <a href="animation.php">
                                 <h3 role="presentation" class="heading1 svelte-mtggno" style="cursor: pointer;">
                                     Animation</h3>
                             </a>
-                            <a href="walkthrough.html">
+                            <a href="walkthrough.php">
                                 <h3 role="presentation" class="heading1 svelte-mtggno" style="cursor: pointer;">Walkthrough</h3>
                             </a>
-                            <a href="educational-tech.html">
+                            <a href="educational-tech.php">
                                 <h3 role="presentation" class="heading1 svelte-mtggno" style="cursor: pointer;">Educational Tech</h3>
                             </a>
-                            <a href="explainer-video.html">
+                            <a href="explainer-video.php">
                                 <h3 role="presentation" class="heading1 svelte-mtggno" style="cursor: pointer;">Explainer Video</h3>
                             </a>
-                            <a href="ai-content.html">
+                            <a href="ai-content.php">
                                 <h3 role="presentation" class="heading1 svelte-mtggno" style="cursor: pointer;">AI Content</h3>
                             </a>
                             <hr class="hr-css svelte-mtggno">
                             <div class="subnavText">
-                                <a href="about-us.html">
+                                <a href="about-us.php">
                                     <p>About Us</p>
                                 </a>
-                                <a href="our-team.html">
+                                <a href="our-team.php">
                                     <p>Our Team</p>
                                 </a>
-                                <a href="testimonials.html">
+                                <a href="testimonials.php">
                                     <p>Testimonials</p>
                                 </a>
-                                <a href="blog.html">
+                                <a href="blog.php">
                                     <p>Blog</p>
                                 </a>
-                                <a href="career.html">
+                                <a href="career.php">
                                     <p>Career</p>
                                 </a>
-                                <a href="contact-us.html">
+                                <a href="contact-us.php">
                                     <p>Contact Us</p>
                                 </a>
                             </div>
