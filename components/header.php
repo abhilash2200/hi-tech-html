@@ -1,6 +1,6 @@
 <div class="header">
         <div class="d-flex justify-content-between align-items-center">
-            <a href="index.html">
+            <a href="index.html" aria-label="logo">
                 <img src="./assets/img/logo/logo.png" alt="logo" width="100%" height="80px">
             </a>
 
