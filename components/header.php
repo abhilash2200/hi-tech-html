@@ -9,7 +9,9 @@
         </div>
         <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
             <div class="offcanvas-header">
-                <img src="./assets/img/logo/logo.png" alt="logo" width="4%" height="80px">
+                <a href="index.php">
+                    <img src="./assets/img/logo/logo.png" alt="logo" width="100%" height="80px">
+                </a>
                 <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
                     aria-label="Close"></button>
             </div>
